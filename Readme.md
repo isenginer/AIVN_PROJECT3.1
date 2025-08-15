@@ -76,6 +76,7 @@ Updating....
 
 * `...`
 ### 2.4 Data Analysis
+>> Phần này mô tả dữ liệu, NA có update và phân tích dữ liệu như thế nào thì viết vào đây nhé
 * def data_plot: hist, scatter...
 
 ### 2.5 Reference
