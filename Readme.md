@@ -2,7 +2,7 @@
 [![Build Status](ci.png)
 ------------
 
-This Project 3.1 provides the method of how to use the KNN, KMeans and Decision Tree. The purpose of this Project is to help student familiar with the basic function of KNN, KMEANS AND DECITION TREE
+This Project 3.1 provides the method of how to use the KNN, KMeans and Decision Tree. The purpose of this Project is to help student familiar with the basic function of KNN, KMEANS AND DECISION TREE
 
 ## *Project Name*: Newspaper title classification based on KNN, KMeans and Decision Tree
 
