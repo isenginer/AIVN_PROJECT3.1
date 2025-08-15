@@ -1,11 +1,11 @@
-# PROJECT 3.1
+# H1 PROJECT 3.1
 [![Build Status](ci.png)
 
 This Project 3.1 provides the method of how to use the KNN, KMeans and Decision Tree. The purpose of this Project is to help student familiar with the basic function of KNN, KMEANS AND DECITION TREE
 
 ## *Project Name*: Newspaper title classification based on KNN, KMeans and Decision Tree
 
-### 1. Introduction
+## 1. Introduction
 In this project, we will build a Text Classification program that involves classifying an abstract of a publication (scientific article) into different topics.
 The program will be built on the Python platform and use popular machine learning libraries such as scikit-learn, numpy, etc.
 Accordingly, the general Input/Output of the program will include:
@@ -14,16 +14,16 @@ Accordingly, the general Input/Output of the program will include:
 
 ![General Structure](general_structure.png)
 
-### 2. Program Structure
+## 2. Program Structure
 
 -------------
-#### 2.1 Library Loading
+### 2.1 Library Loading
 Beside the main library of math, os, sklearn... there are some special libraries below:
 * re: regular expression, provide the analysis for text
 * sentence_transformers: create and use the model of sentence embedding to sentimental vectors
-#### 2.2 Data Source
+### 2.2 Data Source
 
-##### 2.2.1 Data Loading Methods
+#### 2.2.1 Data Loading Methods
 Data source can be loaded by two methods:
 
 Method 1:
@@ -37,7 +37,7 @@ however, this datasets might have some conflicts with version of Python & some l
 Method 2:
 Load direcly from website. The file with 3.2GB shall be stored in the same folder of main processing notebook and we can access directly by:
 
-###### 2.2.2. Strucure of Dataset
+#### 2.2.2. Strucure of Dataset
 Categories or fields after loading:
 * id: The paper's arXiv ID.
 * submitter: The person who submitted the paper.
@@ -55,21 +55,11 @@ Categories or fields after loading:
 * authors_parsed: The list of authors that have been parsed and normalized.
 
 
-#### 2.3 User-Defined Function
->>Ngoc Anh update vào đây nếu có function nào viết riêng, nhớ define chức năng của function theo mẫu sau:
->>def function_name(parameters=..., ....):
+### 2.3 User-Defined Function
+> > Ngoc Anh update vào đây nếu có function nào viết riêng, nhớ define chức năng của function theo mẫu sau:
 
->> """
+<pre lang="markdown"> ```python def function_name(parameters=..., ...): """ function definition parameter1: .... parameter2: .... return: ..... """ ``` </pre>
 
->> *function definition*
-
->>parameter1: ....
->> 
->>parameter2: ....
-> >
-> >return: .....
-> >
->>"""
 ```
 Updating....
 ```
@@ -77,15 +67,15 @@ Updating....
 * class EmbeddingVectorizer
 
 * `...`
-#### 2.4 Data Analysis
+### 2.4 Data Analysis
 * def data_plot: hist, scatter...
 
-#### 2.5 Reference
+### 2.5 Reference
 ```
 Updating....
 ```
 
-### 3. Incorporate Git-hub function
+## 3. Incorporate Git-hub function
 ```
 Updating....
 ```
