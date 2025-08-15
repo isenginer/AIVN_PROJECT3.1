@@ -16,6 +16,18 @@ Accordingly, the general Input/Output of the program will include:
 ![General Structure](general_structure.png)
 
 ## 2. Program Structure
+### 2.1 The Program Structure And Processing
+- [x] Dataset Loading
+- [x] Data Extraction
+- [ ] Data Analysis
+- [ ] Data Embedding (to numerical)
+- [ ] ...
+
+```
+To be updating... (NA update nếu cần thêm chức năng khác)
+```
+
+
 ### 2.1 Library Loading
 
 Beside the main library of math, os, sklearn... there are some special libraries below:
@@ -81,12 +93,12 @@ Updating....
 
 ### 2.5 Reference
 ```
-Updating....
+To be updating....
 ```
 
 ## 3. Incorporate Git-hub function
 ```
-Updating....
+To be updating....
 ```
 
 README is the only file to provide guidelines of this Assignment.
