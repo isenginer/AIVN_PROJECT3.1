@@ -25,6 +25,7 @@ Beside the main library of math, os, sklearn... there are some special libraries
 
 ##### 2.2.1 Data Loading Methods
 Data source can be loaded by two methods:
+
 Method 1:
 
 `from datasets import load_dataset`
