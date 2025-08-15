@@ -1,5 +1,6 @@
 # H1 PROJECT 3.1
 [![Build Status](ci.png)
+===================================
 
 This Project 3.1 provides the method of how to use the KNN, KMeans and Decision Tree. The purpose of this Project is to help student familiar with the basic function of KNN, KMEANS AND DECITION TREE
 
@@ -17,7 +18,9 @@ Accordingly, the general Input/Output of the program will include:
 ## 2. Program Structure
 
 -------------
+
 ### 2.1 Library Loading
+
 Beside the main library of math, os, sklearn... there are some special libraries below:
 * re: regular expression, provide the analysis for text
 * sentence_transformers: create and use the model of sentence embedding to sentimental vectors
