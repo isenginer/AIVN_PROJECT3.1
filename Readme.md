@@ -58,8 +58,16 @@ Categories or fields after loading:
 ### 2.3 User-Defined Function
 > > Ngoc Anh update vào đây nếu có function nào viết riêng, nhớ define chức năng của function theo mẫu sau:
 
-<pre lang="markdown"> ```python def function_name(parameters=..., ...): """ function definition parameter1: .... parameter2: .... return: ..... """ ``` </pre>
-
+```
+def function_name(parameters=..., ...): 
+"""
+function definition 
+parameter1: .... 
+parameter2: .... 
+return: .....
+"""
+<Code>
+```
 ```
 Updating....
 ```
