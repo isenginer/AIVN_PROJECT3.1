@@ -26,15 +26,15 @@ Beside the main library of math, os, sklearn... there are some special libraries
 #### 2.2.1 Data Loading Methods
 Data source can be loaded by two methods:
 
-Method 1:
-
-`from datasets import load_dataset`
-
-`ds = load_dataset('UniverseTBD/arxiv-abstracts-large')`
-
+**Method 1:**
+```python
+from datasets import load_dataset`
+ds = load_dataset('UniverseTBD/arxiv-abstracts-large')
+```
 however, this datasets might have some conflicts with version of Python & some library.
 
-Method 2:
+**Method 2:**
+
 Load direcly from website. The file with 3.2GB shall be stored in the same folder of main processing notebook and we can access directly by:
 
 #### 2.2.2. Strucure of Dataset
@@ -58,15 +58,15 @@ Categories or fields after loading:
 ### 2.3 User-Defined Function
 > > Ngoc Anh update vào đây nếu có function nào viết riêng, nhớ define chức năng của function theo mẫu sau:
 
-```
-def function_name(parameters=..., ...): 
-"""
-function definition 
-parameter1: .... 
-parameter2: .... 
-return: .....
-"""
-<Code>
+```python
+def function_name(parameters1=..., parameter2=...): 
+    """
+    function definition 
+    parameter1: .... 
+    parameter2: .... 
+    return: .....
+    """
+    <Code>
 ```
 ```
 Updating....
