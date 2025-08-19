@@ -19,14 +19,9 @@ Accordingly, the general Input/Output of the program will include:
 ### 2.1 The Program Structure And Processing
 - [x] Dataset Loading
 - [x] Data Extraction
-- [ ] Data Analysis
-- [ ] Data Embedding (to numerical)
-- [ ] ...
-
-```
-To be updating... (NA update nếu cần thêm chức năng khác)
-```
-
+- [x] Data Processing
+- [ ] Data Embedding
+- [ ] Build Models - fit data and compare the accuracy
 
 ### 2.1 Library Loading
 
@@ -66,10 +61,12 @@ Categories or fields after loading:
 * update_date: The date the paper was updated.
 * authors_parsed: The list of authors that have been parsed and normalized.
 
+Following the guidelines of Project, the data will use 'abstract' as input or features and 'categories' as labels.
+
+For categories, the value is separate into 02 fields: main category and sub category, in example: [math.CA] [cs.CG]
+We shall need to extract primary category for this Project
 
 ### 2.3 User-Defined Function
-> > Ngoc Anh update vào đây nếu có function nào viết riêng, nhớ define chức năng của function theo mẫu sau:
-
 ```python
 def function_name(parameters1=..., parameter2=...): 
     """
@@ -80,21 +77,23 @@ def function_name(parameters1=..., parameter2=...):
     """
     <Code>
 ```
+def abstract_processing(text): clean the data
+def category_processing(text): filter the primary category
+
+
 ```
 Updating....
 ```
-* def preprocessing
-* class EmbeddingVectorizer
 
-* `...`
 ### 2.4 Data Analysis
->> Phần này mô tả dữ liệu, NA có update và phân tích dữ liệu như thế nào thì viết vào đây nhé
-* def data_plot: hist, scatter...
+N/A: text processing therefore no distribution plot is required
 
-### 2.5 Reference
+### 2.5 Models Construction
 ```
 To be updating....
 ```
+### 2.6 Models Comparison
+
 
 ## 3. Incorporate Git-hub function
 ```
