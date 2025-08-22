@@ -81,10 +81,13 @@ def function_name(parameters1=..., parameter2=...):
     """
     <Code>
 ```
-def abstract_processing(text): clean the data
-def category_processing(text): filter the primary category
-class EmbeddingVectorizer(): new object use the SentencesTransformers
 
+| Function                      | Description                              |
+|-------------------------------|------------------------------------------|
+| def abstract_processing(text) | clean the data                           |
+| def category_processing(text) | filter the primary category              |
+| class EmbeddingVectorizer()   | new object use the SentencesTransformers |
+|                               |                                          |
 ```
 Updating....
 ```
