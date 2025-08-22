@@ -20,8 +20,9 @@ Accordingly, the general Input/Output of the program will include:
 - [x] Dataset Loading
 - [x] Data Extraction
 - [x] Data Processing
-- [ ] Data Embedding
-- [ ] Build Models - fit data and compare the accuracy
+- [x] Data Embedding
+- [x] Build Models - fit data and compare the accuracy
+- [x] Summary the result base on Confusion Matrix
 
 ### 2.1 Library Loading
 
@@ -66,6 +67,9 @@ Following the guidelines of Project, the data will use 'abstract' as input or fe
 For categories, the value is separate into 02 fields: main category and sub category, in example: [math.CA] [cs.CG]
 We shall need to extract primary category for this Project
 
+The categories used in this Project shall be 5 categories:
+`['astro-ph', 'cond-mat', 'cs', 'math', 'math-ph', 'physics']`
+
 ### 2.3 User-Defined Function
 ```python
 def function_name(parameters1=..., parameter2=...): 
@@ -79,14 +83,27 @@ def function_name(parameters1=..., parameter2=...):
 ```
 def abstract_processing(text): clean the data
 def category_processing(text): filter the primary category
-
+class EmbeddingVectorizer(): new object use the SentencesTransformers
 
 ```
 Updating....
 ```
 
-### 2.4 Data Analysis
-N/A: text processing therefore no distribution plot is required
+### 2.4 Data Processing
+Data is extracted to DataFrame `dataset_df`. This df is keeping the raw value extracted from arrow() database of hugging face.
+
+Field of `dataset_df`:
+- "abstract": brief sentences about the scientist majority
+- "categories": the labels of data, apply the expertise subject base on the sentence of abstract
+
+`abstract` sentences shall be converted to sparse matrix by CountVectorizer(), TfIdf() and `User-defined` Embedding Model
+
+* CountVectorizer(): This model does not have NORMALIZATION
+* TfIdf(): This model has default L2 NORMALIZATION
+* EmbeddingSentences: This model has NORMALIZATION
+
+`categories` shall be converted to number 0 - 5 based on subject
+
 
 ### 2.5 Models Construction
 ```
